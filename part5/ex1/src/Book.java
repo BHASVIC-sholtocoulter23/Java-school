@@ -1,23 +1,23 @@
 public class Book{
-    private string author;
-    private string name;
+    private String author;
+    private String name;
     private int pages;
-    Public Book(string initAuthor, string initName, int initPages){
+    public Book(String initAuthor, String initName, int initPages){
         author = initAuthor;
         name = initName;
         pages = initPages;
     }
-    public string getAuthor(){
-        return(author)
+    public String getAuthor(){
+        return(author);
     }
-    public string getName(){
-        return(name)
+    public String getName(){
+        return(name);
     }
     public int getPages(){
-        return(pages)
+        return(pages);
     }
-    public string toString(){
-        return(author+", "+name+", "+String.valueOf(pages))
+    public String toString(){
+        return(author+", "+name+", "+String.valueOf(pages));
     }
 
 
