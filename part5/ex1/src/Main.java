@@ -1,7 +1,7 @@
 public class Main{
 
-    public static void Main(String args[]){
-        Book book1 = new Book("J.K. rowing", "Harry Smith", 69420);
-        System.out.println(book1.toString());
+    public static void main(String[] args){
+        Cube cube1 = new Cube(5);
+        System.out.println(cube1.toString());
     }
 }
